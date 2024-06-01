@@ -1,0 +1,31 @@
+.sidebar {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 55px;
+  width: 72px;
+  background-color: white;
+  z-index: 200;
+  overflow: scroll;
+  scrollbar-color: rgb(186, 186, 186) rgb(232, 231, 231);
+  scrollbar-width: thin;
+  
+}
+
+.sidebar-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 76px;
+  
+}
+
+.sidebar-link:hover {
+  background-color: rgb(235, 235, 235);
+  
+}
+
+.sidebar-link img {
+  height: 35px;
+}
+
